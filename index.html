@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ACE.TECHS Solution to the crowdfund challnge by frontend mentor">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/crowdfunding-product-page-main/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap" rel="stylesheet">
+    <title>CROWDFUNDING | CHALLENGE</title>
+</head>
+<body>
+    <header>
+        <div class="mainheader">
+            <div class="logo">
+                <h2>crowdfund</h2>
+            </div>
+
+            <div class="navlink" id="navlink">
+                <ul>
+                    <li><a href="#aboutholder" >About</a></li>
+                    <li><a href="#discover" >Discover</a></li>
+                    <li><a href="#getstarted" >Get Started</a></li>
+                </ul>
+            </div>
+
+            <div class="menu" id="menu" onclick="openNav()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <div class="closemenu" id="closemenu" onclick="closeNav()">
+                <p class="closeMenuBtn">&#10006</p>
+            </div>
+        </div>   
+    </header>
+
+    <!-- main starts here -->
+    <!-- main starts here -->
+    <!-- main starts here -->
+
+    <main>
+
+        <!-- popup form -->
+        <!-- popup form -->
+        <!-- popup form -->
+
+
+        <div class="backprojectpop" id="backprojectpop">
+        <div class="projectholder">
+            <div class="popupheader">
+                <p class="headerbig" id="headerbig" >Back this project</p>
+                <p class="headersmall">Want to support in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+            </div>
+
+            <div class="popclosebtnholder">
+                <p id="closepopbtn" onclick="closePop()" style="background-color: white;">&#10006</p>
+            </div>
+
+            <form action="" method="get" >
+                <div class="formholder">
+                    
+                      <div class="radiooneholder" id="radiooneholder">
+                        <label for="radioone" class="radiolabone" id="radiolabone">
+                        <div class="radioonetop">
+                            <input type="radio" name="radio" id="radioone" onfocus="focusFuncOne()">
+                            <p class="labbig">Pledge with no reward</p>
+                        </div>
+
+                            <p class="labsmall">Choose to support us without a reward if you simply believe in our project. As a Backer, you will be signed up to receive products via email.</p>
+                        </label>
+
+
+                        <div class="radiooneonfocus" id="radiooneonfocus">
+                            <hr>
+                            <div class="radiooneonfocusholder">
+                                <a  class="radioonecontbtn" onclick="openModal()">Continue</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- radio one ends -->
+                      <!-- radio one ends -->
+                      <!-- radio one ends -->
+
+
+
+                      <!-- radiotwo starts -->
+                      <!-- radiotwo starts -->
+                      <!-- radiotwo starts -->
+
+                     <div class="radiotwoholder" id="radiotwoholder">
+                        <label for="radiotwo" class="radio2">
+                            <div class="radiotwotop">
+                                <input type="radio" name="radio" id="radiotwo" onfocus="focusFunctwo()">
+                                <p class="radiotwotexthead">Bamboo stand</p>
+                                <p class="radiotwolabbig">Pledge $25 or more</p>
+                                 
+                                
+                                    <div class="radiotwoamountleft">
+                                        <p class="radiotwoamountno">101</p>
+                                        <p class="radiotwoamounttext">left</p>
+                                    </div>
+                         
+                            </div>
+
+                            <p class="labsmall">You get an ergonomic stand made of natural bamboo. You've helped us lauch our professional campaign, and you'll be added to a special Backer member list.</p>
+
+                            <div class="radiotwoonfocus" id="radiotwoonfocus">
+                                <hr>
+
+                                <div class="radiotwoonfocusholder" id="radiotwoonfocusholder">
+                                   
+                                    <div class="pledgecontholder">
+                                        <p class="enterpledge">Enter your pledge</p>
+
+                                        <div class="priceandcont">
+                                            <input type="number" name="price" id="priceone" class="formprice"   onfocus="focusFunctwo()" required>
+
+                                            <!-- <a  class="contbtn"  onclick="validateFormOne(); openModal()"  type="submit">Continue</a> -->
+
+                                            <button type="submit" class="contbtn" onclick="validateFormOne()">Continue</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                     </div>
+
+                     <!-- radiotwo ends -->
+                     <!-- radiotwo ends -->
+                     <!-- radiotwo ends -->
+
+                    <!-- radiothree starts -->
+                    <!-- radiothree starts -->
+                    <!-- radiothree starts -->
+                     
+                     <div class="radiothreeholder" id="radiothreeholder">
+                        <label for="radiothree" class="radio2">
+                            <div class="radiothreetop">
+                                <input type="radio" name="radio" id="radiothree" onfocus="focusFuncThree()">
+                                <p class="radiothreetexthead">Black Edition stand</p>
+                                <p class="radiothreelabbig">Pledge $75 or more</p>
+                                 
+                                
+                                    <div class="radiothreeamountleft">
+                                        <p class="radiothreeamountno">64</p>
+                                        <p class="radiothreeamounttext">left</p>
+                                    </div>
+                         
+                            </div>
+
+                            <p class="labsmall">You get a Black Special Edition computer stand and a personal thank you. You will be added to our Backer member list. Shipping is included. </p>
+
+                            <div class="radiothreeonfocus" id="radiothreeonfocus">
+                                <hr>
+
+                                <div class="radiothreeonfocusholder">
+                                   
+                                    <div class="pledgecontholder">
+                                        <p class="enterpledge">Enter your pledge</p>
+
+                                        <div class="priceandcont">
+                                            <input type="number" name="price" id="pricetwo" class="formprice"  required>
+
+                                            <!-- <a class="contbtn" onclick="openModal()">Continue</a> -->
+
+                                            <button type="submit" class="contbtn" onclick="validateFormTwo()">Continue</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                     </div>
+
+                     <!-- radiothree ends -->
+                     <!-- radiothree ends -->
+                     <!-- radiothree ends -->
+
+
+                     <!-- radiofour starts -->
+                     <!-- radiofour starts -->
+                     <!-- radiofour starts -->
+
+                     <div class="radiofourholder">
+                        <label for="radiofour" class="radio1" >
+                        <div class="radiofourtop">
+                            <input type="radio" name="radio" id="radiofour" onfocus="" disabled>
+                            <p class="radiofourtexthead">Mahogany Special Edition</p>
+                            <p class="radiofourlabbig">Pledge with no reward</p>
+
+                            <div class="radiofouramountleft">
+                                <p class="radiofouramountno">0</p>
+                                <p class="radiofouramounttext">left</p>
+                            </div>
+                        </div>
+
+                            <p class="labsmall">Choose to support us without a reward if you simply believe in our project. As a Backer, you will be signed up to receive products via email.</p>
+                        </label>
+                      </div>
+
+                      <!-- radiofour ends -->
+                      <!-- radiofour ends -->
+                      <!-- radiofour ends -->
+
+                </div>
+            </form>
+
+        </div>        
+        </div>
+
+        <!-- end of first popup -->
+        <!-- end of first popup -->
+        <!-- end of first popup -->
+        <!-- end of first popup -->
+
+
+
+        <!-- start completed modal -->
+        <!-- start completed modal -->
+        <!-- start completed modal -->
+
+
+        <section class="completedmodal" id="completedmodal">
+            <div class="completedmodalholder">
+
+                <div class="modalicon">
+                    <img src="assets/crowdfunding-product-page-main/images/icon-check.svg" alt="completed">
+                </div>
+
+                <div class="modaltext">
+                    <p class="modalbigtext">Thanks for your support!</p>
+                    <p class="smalltext">Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once this is completed.</p>
+                </div>
+
+                <div class="modalclose">
+                    <p class="closemodalbtn" id="closemodalbtn" onclick="closeModal()">Got it</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- end of xompleted modal -->
+        <!-- end of xompleted modal -->
+        <!-- end of xompleted modal -->
+
+
+
+        <div class="mainlogo">
+                <img src="assets/crowdfunding-product-page-main/images/logo-mastercraft.svg" alt="">
+        </div>
+        <section class="main" id="main">
+            <div class="mainholderone">
+               <div class="mainholderonetexts">
+                <p class="holderonetextone">mastercraft bamboo monitor riser</p>
+                <p class="holderonetexttwo">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+               </div>
+
+               <div class="mainholderonebtns">
+                   <a style="cursor: pointer;" class="backprojectbtn" id="backprojectbtn" onclick="showPop()">Back this project</a>
+                   <a style="cursor: pointer;" class="bookmarkbtn" onclick="bookMarkAlert()"><img src="assets/crowdfunding-product-page-main/images/icon-bookmark.svg" alt=""> <p>Bookmark</p></a>
+               </div>
+            </div>
+
+
+            <!-- mainholdertwo -->
+            <!-- mainholdertwo -->
+            <!-- mainholdertwo -->
+
+
+        <section class="mainholdertwo" id="discover">
+                <div class="mainholdertwocontainer">
+                    
+               
+                <div class="price">
+                    <p class="boldprice">$89,914</p>
+                    <p class="smallprice">of $100,000 backed</p>
+                </div>
+                <div class="hr"></div>
+
+                <div class="total">
+                    <p class="boldtotal">5,007</p>
+                    <p class="smalltotal">total backers</p>
+                </div>
+                <div class="hr"></div>
+
+                <div class="days">
+                    <p class="bolddays">56</p>
+                    <p class="smalldays">days left</p>
+                </div>
+
+
+                </div>
+
+                <div class="meter">
+                    <div class="coveredmeter">
+
+                    </div>
+                </div>
+        </section>
+
+         <section class="mainholderabout" id="aboutholder">
+             <div class="aboutcontainer">
+                 <p class="aboutheader">About this project</p>
+
+                 <p class="abouttexts">
+                     The Mastercraft Bamboo Monitor is a sturdy and stylish platform that elevates your screen for a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make more comfortable while at work, helping you stay focused on the task at hand.
+                     <br><br>
+
+                     Featuring artisan craftmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.
+                 </p>
+
+
+
+                 <div class="bamboostand" id="getstarted">
+                    <div class="bambootopside">
+                        <p class="bamboostandheader">Bamboo stand</p>
+                        <a href="" class="bamboopledge">Pledge $25 or more</a>
+                    </div>
+
+                     <p class="bambootext">You get an ergornomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you'll be added to a special Backer member list</p>
+
+                     <div class="bottomside">
+                         <div class="amountleft">
+                             <p class="amountno">101</p>
+                             <p class="amounttext">left</p>
+                         </div>
+                         <a  onclick="showPop()" href="#radiooneholder"  class="rewardbtn"  style="cursor: pointer;" >Select Reward</a>
+                     </div>
+                 </div>
+
+                
+                 <div class="blackeditionstand">
+                    <div class="blackeditiontopside">
+                        <p class="blackeditionstandheader">Black Edition Stand</p>
+                      <a href="" class="pledge">Pledge $75 or more</a>
+                    </div>
+
+                     <p class="blackeditiontext">You get a Black Special Edition computer stand and a personal thank you. You'll be added to our Backer member list. Shipping is included.</p>
+
+                     <div class="bottomside">
+                         <div class="amountleft">
+                             <p class="amountno">64</p>
+                             <p class="amounttext">left</p>
+                         </div>
+
+                         <a onclick="showPop()" href="#radiothreeonfocus" class="rewardbtn"  style="cursor: pointer; " >Select Reward</a>
+                     </div>
+                 </div>
+
+
+                 <div class="mahoganystand">
+                    <div class="mahoganytopside">
+                        <p class="mahoganystandheader">Mahogany Special Edition</p>
+                        <a href="" class="mahoganypledge">Pledge $200 or more</a>
+                    </div>
+
+                     <p class="mahoganytext">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You'll be added to our Backer member list. Shipping is included</p>
+
+                     <div class="bottomside">
+                         <div class="mahoganyamountleft">
+                             <p class="mahoganyamountno">0</p>
+                             <p class="mahoganyamounttext">left</p>
+                         </div>
+
+                         <a href="" class="mahoganyrewardbtn">Out of stock</a>
+                     </div>
+                 </div>
+
+                
+
+             </div>
+         </section>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
